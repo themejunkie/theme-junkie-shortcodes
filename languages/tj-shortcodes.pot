@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TJ Shortcodes 0.1.3\n"
 "Report-Msgid-Bugs-To: http://www.theme-junkie.com/support/\n"
-"POT-Creation-Date: 2015-09-06 15:03:30+00:00\n"
+"POT-Creation-Date: 2015-09-07 06:36:34+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,7 +68,7 @@ msgstr ""
 msgid "Select the button's style, ie the button's colour"
 msgstr ""
 
-#: inc/config.php:30 inc/config.php:90
+#: inc/config.php:30 inc/config.php:90 inc/config.php:248
 msgid "Grey"
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 msgid "Black"
 msgstr ""
 
-#: inc/config.php:32 inc/config.php:93
+#: inc/config.php:32 inc/config.php:93 inc/config.php:247
 msgid "Green"
 msgstr ""
 
@@ -84,11 +84,11 @@ msgstr ""
 msgid "Light Blue"
 msgstr ""
 
-#: inc/config.php:34
+#: inc/config.php:34 inc/config.php:251
 msgid "Blue"
 msgstr ""
 
-#: inc/config.php:35 inc/config.php:91
+#: inc/config.php:35 inc/config.php:91 inc/config.php:249
 msgid "Red"
 msgstr ""
 
@@ -180,7 +180,7 @@ msgstr ""
 msgid "White"
 msgstr ""
 
-#: inc/config.php:92
+#: inc/config.php:92 inc/config.php:250
 msgid "Yellow"
 msgstr ""
 
@@ -358,6 +358,38 @@ msgstr ""
 
 #: inc/config.php:213
 msgid "Add Column"
+msgstr ""
+
+#: inc/config.php:221
+msgid "Dropcap"
+msgstr ""
+
+#: inc/config.php:226
+msgid "A"
+msgstr ""
+
+#: inc/config.php:228
+msgid "Letter"
+msgstr ""
+
+#: inc/config.php:238
+msgid "Hightlights"
+msgstr ""
+
+#: inc/config.php:244
+msgid "Color"
+msgstr ""
+
+#: inc/config.php:245
+msgid "Select the hightlight's color."
+msgstr ""
+
+#: inc/config.php:255
+msgid "Hightlited words"
+msgstr ""
+
+#: inc/config.php:257
+msgid "Hightlited Words"
 msgstr ""
 
 #: shortcodes/toggle.php:14
