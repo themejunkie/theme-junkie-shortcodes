@@ -1,17 +1,17 @@
-=== Theme Junkie Shortcodes ===
-Contributors: themejunkie, satrya
-Tags: shortcodes, alert, tab, toggle, button, column
-Requires at least: 3.6
-Tested up to: 4.0
-Stable tag: 0.1.2
+=== TJ Shortcodes ===
+Contributors: themejunkie
+Tags: shortcodes, alert, tab, toggle, button, column, dropcap, hightlights, shortcode
+Requires at least: 4.0
+Tested up to: 4.3
+Stable tag: 0.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple pack of shortcodes to enhance your site functionality.
+A small pack of shortcodes to enhance your site functionality. You can easily add buttons, alerts, columns and more.
 
 == Description ==
 
-This plugin adds a pack of shortcodes to enhance your site. You can easily to display beautiful button without coding knowledge! 
+This plugin adds a pack of shortcodes to enhance your site. You can easily add buttons, alerts, columns and more without coding knowledge! 
 
 = Shortcodes Includes =
 * Alert
@@ -19,10 +19,15 @@ This plugin adds a pack of shortcodes to enhance your site. You can easily to di
 * Column
 * Tab
 * Toggle
+* Dropcap
+* Hightlights
 * **More to come**
 
+[Check out the demo](http://demo.theme-junkie.com/daily/shortcodes/).
+
 = Plugin Info =
-* Developed by [Theme Junkie](http://www.theme-junkie.com/)
+* Developed by [Theme Junkie](http://www.theme-junkie.com/?utm_source=wporg&utm_medium=text_link&utm_campaign=Site%20Promotion)
+* Check out the [Github](https://github.com/themejunkie/theme-junkie-shortcodes) repo to contribute.
 
 == Installation ==
 
@@ -43,19 +48,17 @@ This plugin adds a pack of shortcodes to enhance your site. You can easily to di
 5. Then activate the plugin.
 5. Go to add new Post or Page, you will see a **Add Shortcode** button beside the media button.
 
-== Frequently Asked Questions ==
-
-= Can I use this plugin without being Theme Junkie customer? =
-Yes, this plugin was developed to support all themes.
-
-= Is this your original work? =
-Not really, the plugin is based on [ZillaShortcodes](http://www.themezilla.com/plugins/zillashortcodes/). We just added a few minor bug fixes and added a sanitization/validation to the code. But will update the shortcodes list soon.
-
 == Screenshots ==
 
-1. Shortcode button
+1. Shortcodes button
 
 == Changelog ==
+
+= 0.1.3 - 9/07/2015 =
+* Support WordPress 4.3
+* Update language
+* Add dropcap shortcode
+* Add hightlights shortcode
 
 = 0.1.2 - 9/04/2014 =
 * Fixed: change class `clear` with `junkie-clearfix` issue

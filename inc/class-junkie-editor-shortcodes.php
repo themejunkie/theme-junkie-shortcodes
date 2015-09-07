@@ -5,7 +5,7 @@
  * @package    Theme_Junkie_Shortcodes
  * @since      0.1.0
  * @author     Theme Junkie
- * @copyright  Copyright (c) 2014, Theme Junkie & ThemeZilla
+ * @copyright  Copyright (c) 2014-2015, Theme Junkie
  * @license    http://www.gnu.org/licenses/gpl-2.0.html
  */
 
@@ -38,7 +38,7 @@ class Junkie_Editor_Shortcodes {
 			return;
 		}
 
-		echo '<a href="#TB_inline?width=4000&amp;inlineId=junkie-choose-shortcode" class="thickbox button junkie-thicbox" title="' . __( 'Add Shortcode', 'junkie' ) . '">' . __( 'Add Shortcode', 'junkie' ) . '</a>';
+		echo '<a href="#TB_inline?width=4000&amp;inlineId=junkie-choose-shortcode" class="thickbox button junkie-thicbox" title="' . __( 'Add Shortcode', 'tj-shortcodes' ) . '">' . __( 'Add Shortcode', 'tj-shortcodes' ) . '</a>';
 
 	}
 
@@ -269,7 +269,7 @@ class Junkie_Editor_Shortcodes {
 				<div id="junkie-shortcode-wrap" class="wrap junkie-shortcode-wrap">
 
 					<div class="junkie-shortcode-select">
-						<label for="junkie-shortcode"><?php _e( 'Select the shortcode type', 'junkie' ); ?></label>
+						<label for="junkie-shortcode"><?php _e( 'Select the shortcode type', 'tj-shortcodes' ); ?></label>
 						<select name="junkie-shortcode" id="select-junkie-shortcode">
 							<option><?php _e( 'Select Shortcode', 'junkie' ); ?></option>
 							<?php foreach( $junkie_shortcodes as $shortcode ) {
@@ -327,7 +327,7 @@ class Junkie_Editor_Shortcodes {
 
 					// Add a link to remove a content block
 					if( $clone_button['show'] ) {
-						$html .= '<tr><td colspan="2"><a href="#" class="junkie-remove">' . __( 'Remove', 'junkie' ) . '</a></td></tr>';
+						$html .= '<tr><td colspan="2"><a href="#" class="junkie-remove">' . __( 'Remove', 'tj-shortcodes' ) . '</a></td></tr>';
 					}
 					$html .= '</tbody></table>';
 
@@ -349,8 +349,8 @@ class Junkie_Editor_Shortcodes {
 				?>
 
 				<p class="submit">
-					<input type="button" id="junkie-insert-shortcode" class="button-primary" value="<?php _e( 'Insert Shortcode', 'junkie' ); ?>" onclick="Junkie_Insert_Shortcode();" />
-					<a href="#" id="junkie-cancel-shortcode-insert" class="button-secondary junkie-cancel-shortcode-insert" onclick="tb_remove();"><?php _e( 'Cancel', 'junkie' ); ?></a>
+					<input type="button" id="junkie-insert-shortcode" class="button-primary" value="<?php _e( 'Insert Shortcode', 'tj-shortcodes' ); ?>" onclick="Junkie_Insert_Shortcode();" />
+					<a href="#" id="junkie-cancel-shortcode-insert" class="button-secondary junkie-cancel-shortcode-insert" onclick="tb_remove();"><?php _e( 'Cancel', 'tj-shortcodes' ); ?></a>
 				</p>
 				</div>
 			</div>

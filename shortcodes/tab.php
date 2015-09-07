@@ -5,7 +5,7 @@
  * @package    Theme_Junkie_Shortcodes
  * @since      0.1.0
  * @author     Theme Junkie
- * @copyright  Copyright (c) 2014, Theme Junkie & ThemeZilla
+ * @copyright  Copyright (c) 2014-2015, Theme Junkie
  * @license    http://www.gnu.org/licenses/gpl-2.0.html
  */
 
@@ -47,7 +47,7 @@ add_shortcode( 'junkie-tabs', 'junkie_tabs_shortcode' );
 
 function junkie_tab_shortcode( $atts, $content = null ) {
 
-	$defaults = array( 'title' => __( 'Tab', 'junkie-shortcodes' ) );
+	$defaults = array( 'title' => __( 'Tab', 'tj-shortcodes' ) );
 	extract( shortcode_atts( $defaults, $atts ) );
 
 	return '<div id="junkie-tab-'. sanitize_title( $title ) .'" class="junkie-tab">' . do_shortcode( stripslashes( $content ) ) . '</div>';

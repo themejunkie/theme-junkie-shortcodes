@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name:  Theme Junkie Shortcodes
+ * Plugin Name:  TJ Shortcodes
  * Plugin URI:   http://www.theme-junkie.com/
  * Description:  A simple pack of shortcodes to enhance your site functionality.
- * Version:      0.1.2
+ * Version:      0.1.3
  * Author:       Theme Junkie
  * Author URI:   http://www.theme-junkie.com/
- * Author Email: satrya@theme-junkie.com
+ * Author Email: support@theme-junkie.com
  *
  * This plugin is a fork version from ZillaShortcodes http://www.themezilla.com/plugins/zillashortcodes,
  * we only add a few bug fixes and add another shortcodes options.
@@ -24,14 +24,14 @@
  * @package    Theme_Junkie_Shortcodes
  * @since      0.1.0
  * @author     Theme Junkie
- * @copyright  Copyright (c) 2014, Theme Junkie & ThemeZilla
+ * @copyright  Copyright (c) 2014-2015, Theme Junkie
  * @license    http://www.gnu.org/licenses/gpl-2.0.html
  */
 
 // Exit if accessed directly
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-class Junkie_Shortcodes {
+class TJ_Shortcodes {
 
 	/**
 	 * PHP5 constructor method.
@@ -104,6 +104,8 @@ class Junkie_Shortcodes {
 		require_once( TJSH_SH . 'column.php' );
 		require_once( TJSH_SH . 'tab.php' );
 		require_once( TJSH_SH . 'toggle.php' );
+		require_once( TJSH_SH . 'dropcap.php' );
+		require_once( TJSH_SH . 'hightlights.php' );
 	}
 
 	/**
@@ -143,4 +145,4 @@ class Junkie_Shortcodes {
 
 }
 
-new Junkie_Shortcodes;
+new TJ_Shortcodes;
